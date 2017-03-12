@@ -16,6 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".NestedLayout"></activity>
+
+        <activity android:name=".KvizActivity" />
+
     </application>
 
 </manifest>

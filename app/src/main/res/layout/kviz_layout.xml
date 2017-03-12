@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="КВИЗ"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/prashanje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Од кој град е клубот? Кој клуб е од градот?"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textViewGrad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Град"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnIzbor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnIzbor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnIzbor3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnIzbor4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewPoeni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Поени" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="viewEnd"/>
+    </LinearLayout>>
+
+
+</LinearLayout>

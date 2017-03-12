@@ -129,9 +129,11 @@
     </LinearLayout>
 
     <Button
-        android:text="Clear Tags"
+        android:text="Igraj kviz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button9" />
+        android:id="@+id/btnIgrajKviz"
+        android:onClick="prikaziKviz"/>
+
 
 </LinearLayout>
